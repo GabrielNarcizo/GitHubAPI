@@ -1,0 +1,76 @@
+header{
+    background-color: rgb(255, 217, 0);
+    margin-bottom: 20px;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+#main{
+    display: flex;
+    justify-content: space-around;
+}
+#busca{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-bottom: 20px;
+}
+
+#usuario{
+    width: 300px;
+    height: 25px;
+    border-color: rgb(255, 217, 0);
+    box-shadow: none;
+
+}
+
+#pesquisar{
+    height: 31px;
+    color: white;
+    background-color: rgb(255, 217, 0);
+    border: none;
+}
+
+hr{
+    margin-bottom: 10px;
+}
+
+img{
+    position: absolute;
+    width: 300px;
+    height: 240px;
+    border-radius: 150px;
+}
+
+#info-profile{
+    position: relative;
+    margin-top: 300px;
+}
+
+#repositorios{
+    position: relative;
+}
+
+#linguagemRepositorio{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+#linguagemParagrafo{
+    margin-top: 17px;
+}
+
+#titulo-repositorios, #titulo-linguagem, #nome, #username, #bio{
+    font-size: 20px;
+    font-weight: bold;
+}

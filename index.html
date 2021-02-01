@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/ea399319a5.js" crossorigin="anonymous"></script> -->
+
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>API Github</title>
+</head>
+
+
+<body>
+    <header>GitHub Finder</header>
+    <div class="container" id="container">
+        
+        <section>
+            <h1>Pesquisar usuários do GitHub</h1>
+            <div id="busca">
+                <input type="text" class="inputUsuario" id="usuario" placeholder="Digite usuário">
+                <input type="button" value="PESQUISAR" id="pesquisar">
+                <br>
+            </div>
+            <hr>
+        </section>
+        <main id="main">
+            <section id="profile">
+                <div id="imagem">
+                    <img src="githubperfil.png" id="image">
+                </div>
+                <div id="info-profile">
+                    <p id="nome">Nome:</p>
+                    <p id="username">User:</p>
+                    <p id="bio">Bio:</p>
+                </div>
+            </section>
+            
+        
+            <div id="repositorios">
+                <div id="titulo-repositorios">
+                    <p>Repositórios do usuário:</p>
+                </div>
+                <br>
+                <div id="nomeRepositorio"></div>
+            </div>
+                   
+                <div id="linguagemRepositorio">
+                    <p id="titulo-linguagem">Linguagem:</p> 
+                </div>
+
+            
+        </main>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
