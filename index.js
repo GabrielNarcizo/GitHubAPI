@@ -95,14 +95,8 @@ class View{
         for(let repo of repos){
 
         let repoNomeDiv = document.getElementById("nomeRepositorio")    
-        let repoNomeParagrafo = `<a href="${repo.html_url}" target="_blank">${repo.name}</br></br></a>`
+        let repoNomeParagrafo = `<a class="link" href="${repo.html_url}" target="_blank">${repo.name}</a></br></br><p class="language">Linguagem: ${repo.language}</br></br></p>`
         repoNomeDiv.innerHTML += repoNomeParagrafo
-
-        let linguagemDiv = document.getElementById("linguagemRepositorio")
-        let linguagemParagrafo = document.createElement("p")
-        linguagemParagrafo.id = "linguagemParagrafo"
-        linguagemParagrafo.innerHTML += repo.language
-        linguagemDiv.appendChild(linguagemParagrafo)
         }
     }
 }
