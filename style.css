@@ -3,7 +3,8 @@ header{
     margin-bottom: 20px;
     padding: 20px;
     color: white;
-    font-size: 20px;
+    font-size: 25px;
+    font-weight: bold;
 }
 
 h1{
@@ -42,6 +43,8 @@ h1{
 
 hr{
     margin-bottom: 10px;
+    height: 1.5px;
+    background-color:rgb(255, 217, 0);
 }
 
 img{
@@ -73,4 +76,8 @@ img{
 #titulo-repositorios, #titulo-linguagem, #nome, #username, #bio{
     font-size: 20px;
     font-weight: bold;
+}
+
+#repoParagrafo{
+    text-decoration: none;
 }
